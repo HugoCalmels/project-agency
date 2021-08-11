@@ -9,6 +9,7 @@ import StudyCase from './Pages/StudyCase';
 import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from './Components/Themes';
 import 'bootstrap/dist/css/bootstrap.css';
+import Logo from './Components/Logo';
 
 const StyledApp = styled.div`
 
@@ -57,7 +58,7 @@ function App() {
 </div>
 
 <div class="col-1"></div>
-
+<Logo />
     </div>
 
     <div className="main">
