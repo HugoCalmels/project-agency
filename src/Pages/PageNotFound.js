@@ -7,7 +7,7 @@ const PageNotFound = () => {
 
   return (
     <div>
-      Sorry about that, the page {location.pathname} dosnt exist 
+      Désolé, la page {location.pathname} n'existe pas.
     </div>
   );
 };
