@@ -2,7 +2,6 @@ export const clients = [
   
 {
   name: "Platon",
-  category: "study-case",
   id: 1,
   content: `## Le challenge
 
@@ -11,7 +10,6 @@ export const clients = [
 },
 {
   name: "Solane",
-  category: "study-case",
   id: 2,
   content: `## Solane est le premier vendeur de fraises du Poitou-Charentes
 
@@ -19,7 +17,6 @@ export const clients = [
 },
 {
   name: "Sedal",
-  category: "study-case",
   id: 3,
   content: `## Sedal, l'entreprise qui a commencé tout en bas... Et qui est toujours tout en bas
 

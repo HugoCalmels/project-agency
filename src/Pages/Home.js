@@ -10,7 +10,7 @@ const Home = () => {
   Notre agence web est capable de répondre à tous vos besoins et d'élaborer une véritable stratégie digitale.`
 
   return (
-    <div>
+    <div className="home">
       <ReactMarkdown children={input} />
     </div>
   );

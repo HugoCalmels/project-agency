@@ -8,7 +8,7 @@ const About = () => {
   Laissez votre projet entre des mains dignes de confiance, ayant accompagné "PLATON", "TCar", "Solane" ou encore "Sedal" vers le sommet.`
 
 return (
-  <div>
+  <div className="about">
     <ReactMarkdown children={input} />
 
   </div>

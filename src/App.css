@@ -6,3 +6,33 @@ body {
   padding: 0px;
   margin: 0px;
 }
+
+.navbar {
+  background-color: #ADD8E6;
+  padding: 10px;
+  margin: 10px ;
+  border-radius: 20px;
+}
+
+.card-body {
+  border-radius: 20px;
+  margin-top: 25px;
+
+}
+
+.study-case {
+  text-align: center;
+}
+
+.works {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+}
+
+.home {
+  text-align: center;
+}
+
