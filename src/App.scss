@@ -1,0 +1,30 @@
+@import './Styles/Components/Navbar';
+@import './Styles/Components/Cards';
+@import './Styles/Components/Buttons';
+@import './Styles/Pages/StudyCase';
+@import './Styles/Pages/About';
+@import './Styles/Pages/Home';
+@import './Styles/Pages/Works';
+
+$buttonColor: #c00c00;
+
+
+
+.main {
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px auto;
+  padding-bottom: auto;
+  border-radius: 20px;
+
+  border: 5px solid #ADD8E6 ;
+  min-height: 300px;
+}
+
+
+
+
+

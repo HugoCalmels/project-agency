@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import React, { useState } from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import About from './Pages/About';
@@ -38,27 +38,29 @@ function App() {
   
 <div class="col-4 d-flex justify-content-start align-space-between">
   <Link className="linksNavbar" to="/" style={{margin: 10}}>
-    <button type="button" className="btn btn-primary">
+    <button type="button" className="buttonStyle">
       Home
     </button>
   </Link>
   <Link className="linksNavbar" to="/works"style={{margin: 10}}>
-    <button type="button" className="btn btn-primary">
+    <button type="button" className="buttonStyle">
       Projets
     </button>
   </Link>
   <Link className="linksNavbar" to="/about" style={{margin:10}}>
-    <button type="button" className="btn btn-primary">
+    <button type="button" className="buttonStyle">
       L'agence
     </button></Link>
 </div>
 <div class="col-6"  align="end" >
-  <button onClick={() => themeToggler()}class="button-nightmode" className="btn btn-primary" >Change Theme</button>
+  <button onClick={() => themeToggler()}className="buttonStyle" >Change Theme</button>
 </div>
 
 <div class="col-1"></div>
 
     </div>
+
+    <div className="main">
     <Switch>
      
       <Route path="/" exact component={Home} />
@@ -68,7 +70,7 @@ function App() {
       <Route path="*" exact component={PageNotFound} />
    
     </Switch>
-
+    </div>
     
   </Router>
   </StyledApp>

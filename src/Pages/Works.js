@@ -44,8 +44,8 @@ return (
     <h5 class="card-title">{client.name}</h5>
    
     <p class="card-text">Viendez découvrir le travail de {client.name}</p>
-    <Link to={"/works/" + client.name + "-study-case"}><button type="button" className="btn btn-primary">
-          Projects
+    <Link to={"/works/" + client.name + "-study-case"}><button type="button btn-sm" className="buttonStyleSmall">
+          Etude de cas
      </button></Link>
  
 </div>

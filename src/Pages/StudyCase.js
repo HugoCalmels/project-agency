@@ -31,7 +31,7 @@ const StudyCase = () => {
 
         
         <p class="card-text"><ReactMarkdown children={foundClient.content} /></p>
-        <button type="button" className="btn btn-primary"
+        <button type="button" className="buttonStyleSmall"
     onClick={() => { 
       history.push('/works');
       console.log(history);

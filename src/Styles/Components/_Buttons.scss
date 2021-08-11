@@ -1,0 +1,46 @@
+.buttonStyle {
+  background-color: #ADD8E6;
+  color: black;
+  border: 2px black solid;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+
+}
+
+.buttonStyle:hover {
+  background-color: #E6E6FA; /* Green */
+  color: black;
+  border: 2px black solid;
+
+}
+
+.buttonStyle:focus {     
+  background-color:#E6E6FA;    
+}
+
+
+.buttonStyleSmall {
+  background-color: #ADD8E6;
+  color: white;
+  border: 2px white solid;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+
+}
+
+.buttonStyleSmall:hover {
+  background-color: #E6E6FA; /* Green */
+  color: black;
+  border: 2px black solid;
+
+}
