@@ -11,6 +11,7 @@ import { lightTheme, darkTheme, GlobalStyles } from './Components/Themes';
 import 'bootstrap/dist/css/bootstrap.css';
 import Logo from './Components/Logo';
 
+const body = document.body;
 const StyledApp = styled.div`
 
   color: ${props => props.theme.fontColor}
@@ -19,11 +20,15 @@ const StyledApp = styled.div`
 
 function App() {
 
+  
+
   const [theme, setTheme] = useState('light')
 
   const themeToggler = () => {
     theme === 'light' ? setTheme("dark") : setTheme("light");
   }
+ 
+
 
 
   return (
